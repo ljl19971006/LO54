@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="springboot-jpa:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springboot_jpa_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springboot-jpa/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
