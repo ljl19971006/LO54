@@ -21,13 +21,15 @@ public class CourseServiceImpl implements CourseService {
     private CourseSessionJpaDao courseSessionJpaDao;
     @Autowired
     private CourseJpaDao courseJpaDao;
+
+
     @Override
-    public List<Course> getCourseByWord(String w) {
-        return courseJpaDao.findByTitleLike(w);
+    public List<CourseSession> getCourseByWord(String w) {
+        return courseSessionJpaDao.findByCourse_Title(w);
     }
 
     @Override
-    public CourseSession getCourseById(int id){
+    public CourseSession getCourseById(Long id){
         return courseSessionJpaDao.findById(id);
     }
 //
@@ -35,6 +37,16 @@ public class CourseServiceImpl implements CourseService {
 //    public CourseSession getCourseByCourseId(long id) {
 //        return courseSessionJpaDao.findByCourseId(id);
 //    }
+
+    @Override
+    public CourseSession saveone(CourseSession courseSession) {
+        return courseSessionJpaDao.save(courseSession);
+    }
+
+    @Override
+    public List<CourseSession> getall() {
+        return courseSessionJpaDao.findAllByCourse();
+    }
 
     @Override
     public List<CourseSession> getCourseByDate(String date)  {
@@ -47,6 +59,7 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public List<CourseSession> getCourseByDateAndLocation(String date, String location) {
+
         return courseSessionJpaDao.findByStartDateAndLocationCity(date,location);
 
     }

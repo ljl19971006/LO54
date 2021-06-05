@@ -28,8 +28,11 @@ public class Client {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "course_Session_Id")
-    private String course_Session_Id;
+    @Column(name = "course_Session_Id1")
+    private Long course_Session_Id1;
+
+    @Column(name = "course_Session_Id2")
+    private Long course_Session_Id2;
 
     public String getLastName() {
         return lastName;
@@ -71,24 +74,37 @@ public class Client {
         this.email = email;
     }
 
-    public String getCourse_Session_Id() {
-        return course_Session_Id;
+    public Long getCourse_Session_Id1() {
+        return course_Session_Id1;
     }
 
-    public void setCourse_Session_Id(String course_Session_Id) {
-        this.course_Session_Id = course_Session_Id;
+    public void setCourse_Session_Id1(Long course_Session_Id1) {
+        this.course_Session_Id1 = course_Session_Id1;
+    }
+
+    public Long getCourse_Session_Id2() {
+        return course_Session_Id2;
+    }
+
+    public void setCourse_Session_Id2(Long course_Session_Id2) {
+        this.course_Session_Id2 = course_Session_Id2;
+    }
+
+    public Long getId() {
+        return id;
     }
 
     @Override
     public String toString() {
-        return "client{" +
+        return "Client{" +
                 "id=" + id +
                 ", lastName='" + lastName + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +
-                ", course_Session_Id='" + course_Session_Id + '\'' +
+                ", course_Session_Id1='" + course_Session_Id1 + '\'' +
+                ", course_Session_Id2='" + course_Session_Id2 + '\'' +
                 '}';
     }
 }

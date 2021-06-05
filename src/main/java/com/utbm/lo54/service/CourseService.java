@@ -17,10 +17,13 @@ import java.util.List;
 public interface CourseService {
 
 
-	public List<Course> getCourseByWord(String word);
+	public List<CourseSession> getCourseByWord(String word);
 
-	public CourseSession getCourseById(int id);
+	public CourseSession getCourseById(Long id);
 
+	public List<CourseSession> getall();
+
+	public CourseSession saveone(CourseSession courseSession);
 //	public CourseSession getCourseByCourseId(long id);
 
 	public List<CourseSession> getCourseByDate(String date) ;

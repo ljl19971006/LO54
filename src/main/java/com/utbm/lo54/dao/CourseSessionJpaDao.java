@@ -17,11 +17,19 @@ import java.util.List;
  */
 public interface CourseSessionJpaDao extends JpaRepository<CourseSession, Long> {
 
-    CourseSession findById(long id);
+    CourseSession findById(Long id);
 
+    @Query(value = "select  * from course_session c inner join course co on c.course_id=co.id "
+            ,nativeQuery = true)
+    List<CourseSession> findAllByCourse();
 //    @Query(value = "SELECT  * from course_session c where c.start_date=?1", nativeQuery = true)
 //    CourseSession findByStartDate(String date);
     List<CourseSession> findByStartDate(String date);
+
+    @Query(value = "select  * from course_session c inner join course co on c.course_id=co.id " +
+            "where co.title like?1",nativeQuery = true)
+    List<CourseSession> findByCourse_Title(String code);
+
 
 
     @Query(value = "select  * from course_session c inner join location l on c.location_id=l.id " +

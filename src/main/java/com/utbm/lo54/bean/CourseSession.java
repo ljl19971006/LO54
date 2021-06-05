@@ -21,6 +21,9 @@ public class CourseSession {
     @Column(name = "end_date")
     private String endDate;
 
+    @Column(name = "current_number")
+    private int currentNumber;
+
 
     @Column(name = "max")
     private int max;
@@ -49,7 +52,17 @@ public class CourseSession {
         this.id = id;
     }
 
+    public int getCurrentNumber() {
+        return currentNumber;
+    }
 
+    public void setCurrentNumber(int currentNumber) {
+        this.currentNumber = currentNumber;
+    }
+
+    public boolean isIsfull() {
+        return isfull;
+    }
 
     public String getStartDate() {
         return startDate;
@@ -67,7 +80,8 @@ public class CourseSession {
         this.endDate = endDate;
     }
 
-    public boolean isIsfull() {
+
+    public boolean isfull() {
         return isfull;
     }
 
@@ -102,5 +116,17 @@ public class CourseSession {
 
     public CourseSession(){}
 
-
+    @Override
+    public String toString() {
+        return "CourseSession{" +
+                "id=" + id +
+                ", startDate='" + startDate + '\'' +
+                ", endDate='" + endDate + '\'' +
+                ", currentNumber=" + currentNumber +
+                ", max=" + max +
+                ", location=" + location +
+                ", isfull=" + isfull +
+                ", course=" + course +
+                '}';
+    }
 }
