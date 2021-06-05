@@ -953,120 +953,130 @@
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="231" name="course_Session_Id">
+    <column id="241" parent="231" name="course_Session_Id1">
       <Position>7</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="242" parent="231" name="Client_Id_uindex">
+    <column id="242" parent="231" name="course_Session_Id2">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="243" parent="231" name="Client_Id_uindex">
       <ColNames>Id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="243" parent="231" name="PRIMARY">
+    <key id="244" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="244" parent="231" name="Client_Id_uindex">
+    <key id="245" parent="231" name="Client_Id_uindex">
       <ColNames>Id</ColNames>
       <UnderlyingIndexName>Client_Id_uindex</UnderlyingIndexName>
     </key>
-    <column id="245" parent="232" name="id">
+    <column id="246" parent="232" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="232" name="title">
+    <column id="247" parent="232" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="232" name="code">
+    <column id="248" parent="232" name="code">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="248" parent="232" name="PRIMARY">
+    <key id="249" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="249" parent="233" name="id">
+    <column id="250" parent="233" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="233" name="isfull">
+    <column id="251" parent="233" name="isfull">
       <Position>2</Position>
-      <DataType>bit(1)|0s</DataType>
+      <DataType>tinyint(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="233" name="max">
+    <column id="252" parent="233" name="max">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="252" parent="233" name="course_id">
+    <column id="253" parent="233" name="course_id">
       <Position>4</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="233" name="location_id">
+    <column id="254" parent="233" name="location_id">
       <Position>5</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="233" name="end_date">
+    <column id="255" parent="233" name="end_date">
       <Position>6</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="255" parent="233" name="start_date">
+    <column id="256" parent="233" name="start_date">
       <Position>7</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="256" parent="233" name="FKqp6t0vjo98oghqcp26ql0m22b">
+    <column id="257" parent="233" name="current_number">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="258" parent="233" name="FKqp6t0vjo98oghqcp26ql0m22b">
       <ColNames>course_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="257" parent="233" name="FKruj95frge3rqumughvjlq22k9">
+    <index id="259" parent="233" name="FKruj95frge3rqumughvjlq22k9">
       <ColNames>location_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="258" parent="233" name="PRIMARY">
+    <key id="260" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="259" parent="233" name="FKqp6t0vjo98oghqcp26ql0m22b">
+    <foreign-key id="261" parent="233" name="FKqp6t0vjo98oghqcp26ql0m22b">
       <ColNames>course_id</ColNames>
       <RefTableName>course</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="260" parent="233" name="FKruj95frge3rqumughvjlq22k9">
+    <foreign-key id="262" parent="233" name="FKruj95frge3rqumughvjlq22k9">
       <ColNames>location_id</ColNames>
       <RefTableName>location</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="261" parent="234" name="id">
+    <column id="263" parent="234" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="234" name="city">
+    <column id="264" parent="234" name="city">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="263" parent="234" name="PRIMARY">
+    <key id="265" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
