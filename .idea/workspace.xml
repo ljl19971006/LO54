@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d397803-f069-4912-84f7-cd8cb220d8fa" name="Default Changelist" comment="" />
+    <list default="true" id="8d397803-f069-4912-84f7-cd8cb220d8fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/ClientJpaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/ClientJpaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/serviceImpl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/serviceImpl/ClientServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,14 +94,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\re" />
-        <option name="mavenHome" value="D:/Program Files/maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../Program Files/maven3" />
         <option name="userSettingsFile" value="D:\Program Files\maven3\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1h1eVsPmOG3RfozCKaHeIkNbKXe" />
@@ -343,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -378,11 +381,12 @@
       <workItem from="1620024438024" duration="27963000" />
       <workItem from="1620461494157" duration="27744000" />
       <workItem from="1620551070193" duration="8526000" />
+      <workItem from="1622889561413" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="3" key="#Assign_Data_Sources" timestamp="1620339009737">

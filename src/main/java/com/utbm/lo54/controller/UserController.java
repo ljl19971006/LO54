@@ -6,8 +6,10 @@ import java.util.*;
 import java.util.logging.Logger;
 
 import com.utbm.lo54.bean.Course;
-
+import com.utbm.lo54.bean.Client;
 import com.utbm.lo54.bean.CourseSession;
+import com.utbm.lo54.service.CourseService;
+import com.utbm.lo54.service.ClientService;
 import com.utbm.lo54.service.CourseService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +27,7 @@ public class UserController {
 
     @Autowired
     private CourseService courseService;
+    private ClientService clientService;
     // private ClientService clientService;
     /**
      * 通过spring data jpa 调用方法
@@ -59,6 +62,18 @@ public class UserController {
 
         return courseService.getCourseByDateAndLocation(date,location);
     }
+    //////////////////////////////////////////////////////////////////////////////////////
+    @GetMapping(value = "/getAllClient")
+    List<Client> getAllClient(){ return clientService.getAllClient();}
+
+    @RequestMapping("saveClientInfo")
+    Client saveClientInfo(@RequestBody Client client){
+        return clientService.saveClientInfo(client);
+    }
+
+    @DeleteMapping("/deleteById")
+    Boolean deleteById(@RequestParam("Id") int Id){ return clientService.deleteClientById(Id);}
+
 
 
     //    @RequestMapping(value = "/index",method = RequestMethod.GET)

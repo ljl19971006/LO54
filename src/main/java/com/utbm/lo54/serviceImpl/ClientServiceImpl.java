@@ -24,17 +24,27 @@ import javax.annotation.Resource;
 public class ClientServiceImpl implements ClientService {
 
     @Resource
-	private ClientJpaDao clientJpaDao;
+    private ClientJpaDao clientJpaDao;
 
     @Override
-    public String JoinCourse(Course c, Client cl) {
-        return null;
-    }
-    /**
-	 *
-	 * @param cas
-	 * @return
-	 */
+    public List<Client> getAllClient(){return clientJpaDao.findAll();}
 
+    @Override
+    public Client getClientById(int Id) {return clientJpaDao.findById(Id); }
+
+    @Override
+    public Client saveClientInfo(Client client) {
+        return clientJpaDao.saveClient(client);
+    }
+    /*
+    @Override
+    public Client editClientInfo(int Id,String lastname,String firstname,String address,int phone,String email,int course_Session) {
+        return clientJpaDao.editClient(Id,lastname,firstname,address,phone,email,course_Session);
+    }
+    */
+    @Override
+    public boolean deleteClientById(int Id) {
+        return clientJpaDao.deleteById(Id);
+    }
 
 }
