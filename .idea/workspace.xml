@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="8d397803-f069-4912-84f7-cd8cb220d8fa" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="8d397803-f069-4912-84f7-cd8cb220d8fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -380,9 +386,15 @@
       <workItem from="1619977651594" duration="5192000" />
       <workItem from="1620024438024" duration="27963000" />
       <workItem from="1620461494157" duration="27744000" />
+<<<<<<< Updated upstream
       <workItem from="1620551070193" duration="9289000" />
       <workItem from="1621610684094" duration="930000" />
       <workItem from="1622282517591" duration="104336000" />
+=======
+      <workItem from="1620551070193" duration="8526000" />
+      <workItem from="1622889561413" duration="153000" />
+      <workItem from="1622891445961" duration="1244000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Add front page, add basic functions">
       <created>1622920934401</created>

@@ -43,7 +43,28 @@ public class UserController {
     @ResponseBody
     List<Client> getAllClient(){ return clientService.getAllClient();}
 
+    @GetMapping("removeCourseSessionOutofdate")
+    @ResponseBody
+    String removeCourseSessionOutofdate(String date){
+        List<CourseSession> CS_list = courseService.getCourseSessionOutofdate(date);
+        for (CourseSession courseSession : CS_list){
+            long cs_id = courseSession.getId();
+            courseService.updateCourseSessionInClientNull((int)cs_id);
+            courseService.deleteCourseSessionById((int)cs_id);
+            System.out.println("Remove finished");
+        }
+        return "index";
+    }
 
+    @RequestMapping("saveCourseSessionInfo")
+    public CourseSession saveCourseSessionInfo(@RequestBody CourseSession courseSession){
+        return courseService.saveCourseSessioninfo(courseSession);
+    }
+
+    @RequestMapping("saveCourseInfo")
+    public Course saveCourseInfo(@RequestBody Course course){
+        return courseService.saveCourseInfo(course);
+    }
 
     /**
      * 通过spring data jpa 调用方法
@@ -226,6 +247,9 @@ public class UserController {
         }
 
     }
+
+
+
 
 //
 //    @RequestMapping(value = "/inscrire",method =RequestMethod.POST)

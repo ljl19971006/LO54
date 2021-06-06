@@ -45,6 +45,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/bootstrap3-dialog" level="application" />
+    <orderEntry type="library" name="@types/jquery-ajax-chain" level="application" />
+    <orderEntry type="library" name="@types/jquery" level="application" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.4.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.4.3.RELEASE" level="project" />
@@ -98,7 +101,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_231/lib/jconsole.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_291/jre/../lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -107,7 +110,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_231/lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_291/jre/../lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -129,8 +132,5 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.12" level="project" />
-    <orderEntry type="library" name="@types/bootstrap3-dialog" level="application" />
-    <orderEntry type="library" name="@types/jquery-ajax-chain" level="application" />
-    <orderEntry type="library" name="@types/jquery" level="application" />
   </component>
 </module>

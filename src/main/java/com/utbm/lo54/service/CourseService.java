@@ -30,6 +30,15 @@ public interface CourseService {
 
 	public List<CourseSession> getCourseByDateAndLocation(String date, String location);
 
+	public List<CourseSession> getCourseSessionOutofdate(String date);
+
+	public String updateCourseSessionInClientNull(int cs_id);
+
+	public boolean deleteCourseSessionById(int cs_id);
+
+	public CourseSession saveCourseSessioninfo(CourseSession courseSession);
+
+	public Course saveCourseInfo(Course course);
 //	public students saveone(students students);
 //	@Transactional
 //	public String deleteUser(String cas,String mdl);
