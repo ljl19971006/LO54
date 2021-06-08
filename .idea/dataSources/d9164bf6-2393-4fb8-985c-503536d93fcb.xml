@@ -945,7 +945,7 @@
     </column>
     <column id="239" parent="231" name="phone">
       <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>bigint(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="240" parent="231" name="email">
@@ -1009,6 +1009,7 @@
     <column id="251" parent="233" name="isfull">
       <Position>2</Position>
       <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="252" parent="233" name="max">

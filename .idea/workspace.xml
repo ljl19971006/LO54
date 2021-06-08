@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d397803-f069-4912-84f7-cd8cb220d8fa" name="Default Changelist" comment="" />
+    <list default="true" id="8d397803-f069-4912-84f7-cd8cb220d8fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/ClientJpaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/ClientJpaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/CourseJpaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/CourseJpaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/CourseSessionJpaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/dao/CourseSessionJpaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/serviceImpl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/serviceImpl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/serviceImpl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/serviceImpl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utbm/lo54/util/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dateandlocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dateandlocation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/motcle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/motcle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/dao/ClientJpaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/dao/ClientJpaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/dao/CourseJpaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/dao/CourseJpaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/dao/CourseSessionJpaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/dao/CourseSessionJpaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/service/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/serviceImpl/ClientServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/serviceImpl/ClientServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/serviceImpl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utbm/lo54/serviceImpl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utbm/lo54/util/CommonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/dateandlocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/dateandlocation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jsp/motcle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsp/motcle.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,21 +73,7 @@
         <item name="reservation_system@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="reservation_system: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="course: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="reservation_system@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="reservation_system: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="course_session: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="reservation_system@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="reservation_system: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="location: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -339,6 +349,11 @@
                 <item name="root:reservation_system@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@30c55e04" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:reservation_system@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@117e8739" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -382,7 +397,7 @@
       <workItem from="1620461494157" duration="27744000" />
       <workItem from="1620551070193" duration="9289000" />
       <workItem from="1621610684094" duration="930000" />
-      <workItem from="1622282517591" duration="104336000" />
+      <workItem from="1622282517591" duration="114575000" />
     </task>
     <task id="LOCAL-00001" summary="Add front page, add basic functions">
       <created>1622920934401</created>
@@ -397,6 +412,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add front page, add basic functions" />
     <option name="LAST_COMMIT_MESSAGE" value="Add front page, add basic functions" />
@@ -410,6 +436,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="3" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1620336527583" />
+    <state x="233" y="3" key="#SQL_Dialects" timestamp="1623054234101">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="3" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1623054234101" />
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622559882755">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -431,55 +461,55 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1617347594495" />
-    <state x="114" y="0" key="CommitChangelistDialog2" timestamp="1622920933292">
+    <state x="114" y="0" key="CommitChangelistDialog2" timestamp="1623139693878">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="114" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1622920933292" />
+    <state x="114" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1623139693878" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1622891344820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680/0.-1080.1280.680@0.0.1280.680" timestamp="1618413720534" />
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622891344820" />
-    <state width="1237" height="353" key="GridCell.Tab.0.bottom" timestamp="1622920897522">
+    <state width="1237" height="237" key="GridCell.Tab.0.bottom" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614277" />
-    <state width="1237" height="353" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622920897522" />
-    <state width="1237" height="353" key="GridCell.Tab.0.center" timestamp="1622920897521">
+    <state width="1237" height="237" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
+    <state width="1237" height="237" key="GridCell.Tab.0.center" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614276" />
-    <state width="1237" height="353" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622920897521" />
-    <state width="1237" height="353" key="GridCell.Tab.0.left" timestamp="1622920897521">
+    <state width="1237" height="237" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
+    <state width="1237" height="237" key="GridCell.Tab.0.left" timestamp="1623139702456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614276" />
-    <state width="1237" height="353" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622920897521" />
-    <state width="1237" height="353" key="GridCell.Tab.0.right" timestamp="1622920897521">
+    <state width="1237" height="237" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1623139702456" />
+    <state width="1237" height="237" key="GridCell.Tab.0.right" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614276" />
-    <state width="1237" height="353" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622920897521" />
-    <state width="1237" height="353" key="GridCell.Tab.1.bottom" timestamp="1622920897522">
+    <state width="1237" height="237" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
+    <state width="1237" height="237" key="GridCell.Tab.1.bottom" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614277" />
-    <state width="1237" height="353" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622920897522" />
-    <state width="1237" height="353" key="GridCell.Tab.1.center" timestamp="1622920897522">
+    <state width="1237" height="237" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
+    <state width="1237" height="237" key="GridCell.Tab.1.center" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614277" />
-    <state width="1237" height="353" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1622920897522" />
-    <state width="1237" height="353" key="GridCell.Tab.1.left" timestamp="1622920897522">
+    <state width="1237" height="237" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
+    <state width="1237" height="237" key="GridCell.Tab.1.left" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614277" />
-    <state width="1237" height="353" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1622920897522" />
-    <state width="1237" height="353" key="GridCell.Tab.1.right" timestamp="1622920897522">
+    <state width="1237" height="237" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
+    <state width="1237" height="237" key="GridCell.Tab.1.right" timestamp="1623139702457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="275" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471614277" />
-    <state width="1237" height="353" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1622920897522" />
+    <state width="1237" height="237" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1623139702457" />
     <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1620341628117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -508,15 +538,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1622559932140" />
-    <state x="535" y="224" width="331" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1620506608935">
+    <state x="535" y="224" width="331" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1623052044505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="535" y="224" width="331" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1620471558310" />
-    <state x="535" y="224" width="331" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.680@0.0.1280.680" timestamp="1620506608935" />
-    <state x="350" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1622919626950">
+    <state x="535" y="224" width="331" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.680@0.0.1280.680" timestamp="1623052044505" />
+    <state x="350" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1623139427255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="350" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1622919626950" />
+    <state x="350" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1623139427255" />
     <state x="235" y="113" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1622498364367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -545,7 +575,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp</url>
-          <line>173</line>
+          <line>176</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
