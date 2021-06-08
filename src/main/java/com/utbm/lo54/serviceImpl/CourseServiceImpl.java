@@ -63,4 +63,31 @@ public class CourseServiceImpl implements CourseService {
         return courseSessionJpaDao.findByStartDateAndLocationCity(date,location);
 
     }
+
+    @Override
+    public List<CourseSession> getCourseSessionOutofdate(String date){
+        return courseSessionJpaDao.findOutofdate(date);
+    }
+
+    @Override
+    public String updateCourseSessionInClientNull(int cs_id){
+        courseSessionJpaDao.checkid1andsetNull(cs_id);
+        courseSessionJpaDao.checkid2andsetNull(cs_id);
+        return "updating";
+    }
+
+    @Override
+    public void deleteCourseSessionById(Long cs_id){
+         courseSessionJpaDao.deleteCourseSessionById(cs_id);
+    }
+
+    @Override
+    public CourseSession saveCourseSessioninfo(CourseSession courseSession){
+        return courseSessionJpaDao.saveCourseSession(courseSession);
+    }
+
+    @Override
+    public Course saveCourseInfo(Course course){
+        return courseJpaDao.saveCourse(course);
+    }
 }

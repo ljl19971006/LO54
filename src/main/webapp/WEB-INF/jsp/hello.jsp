@@ -118,7 +118,10 @@
                         <label for="telephone" class="col-form-label">Telephone:</label>
                         <input type="text" class="form-control" id="telephone" name="telephone">
                     </div>
-
+                    <div class="form-group">
+                        <label for="coursesessionid" class="col-form-label">coursesessionid:</label>
+                        <input type="text" class="form-control" id="coursesessionid" name="coursesessionid" value="context">
+                    </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="submit" class="btn btn-primary" >S'inscrire</button>

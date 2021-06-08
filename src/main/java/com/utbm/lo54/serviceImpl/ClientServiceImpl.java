@@ -35,7 +35,9 @@ public class ClientServiceImpl implements ClientService {
 
     @Override
     public Client getClientBy4infos(String nom, String prenom, String address, String telephone) {
-        return clientJpaDao.getClientByLastNameAndFirstNameAndAddressAndPhone(nom,prenom,address,telephone);
+       Client client=clientJpaDao.getClientByLastNameAndFirstNameAndAddressAndPhone(nom,prenom,address,telephone);
+        if (client==null) return null;
+        else return client;
     }
 
     @Override

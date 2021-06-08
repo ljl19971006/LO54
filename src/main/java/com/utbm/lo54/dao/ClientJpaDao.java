@@ -15,12 +15,12 @@ public interface ClientJpaDao extends JpaRepository<Client, Long> {
     @Query(name = "findById",value = "select * from client where client.Id = ?1",nativeQuery = true)
     public Client findById(int Id);
 
-    //新增或修改client信息
-    @Query(name = "saveClient",value = "insert INTO client (Id,lastname,firstname,address,phone,email,course_Session) " +
-            "values (#{Id},#{lastname},#{fisrtname},#{address},#{phone},#{email},#{course_Session})" +
-            "ON DUPLICATE KEY UPDATE lastname = #{lastname},fisrtname = #{fisrtname},address = #{address},phone = #{phone},email = #{email},#{course_Session};",nativeQuery = true)
-    public Client saveClient(Client client);
-
+//    //新增或修改client信息
+//    @Query(name = "saveClient",value = "insert INTO client (Id,lastName,firstName,address,phone,email,course_Session_Id1,course_Session_Id2) " +
+//            "values (#{Id},#{lastname},#{fisrtname},#{address},#{phone},#{email},#{course_Session_Id1},#{course_Session_Id2})" +
+//            "ON DUPLICATE KEY UPDATE lastName = #{lastname},fisrtName = #{fisrtname},address = #{address},phone = #{phone},email = #{email}," +
+//            "course_Session_Id1 =#{course_Session_Id1},course_Session_Id2 =#{course_Session_Id2};",nativeQuery = true)
+//    public Client saveClient(Client client);
     /*修改client信息
     @Query(name = "editClient",value = "UPDATE client set lastname = ?2,fisrtname = ?3,address = ?4,phone = ?5,email = ?6," +
             "course_Session = ?7 where id = ?1;" ,nativeQuery = true)
